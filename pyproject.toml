@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "analysis-project"
+version = "0.1.0"
+description = ""
+authors = ["Dan Socaciu <dan@socaciu.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+paramiko = "^3.3.1"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
